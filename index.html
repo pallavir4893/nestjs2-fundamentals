@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TuteDude – 02: CSS Clip-Path Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <h1><span class="accent">TuteDude</span> Clip-Path Gallery</h1>
+      <p>Explore polygons, circles, and custom shapes made purely with CSS.</p>
+      <a class="cta" href="#gallery">View Gallery</a>
+    </div>
+  </header>
+
+  <main id="gallery" class="gallery">
+    <section class="section">
+      <h2>Basic shapes</h2>
+      <div class="cards">
+        <article class="card card--polygon">
+          <h3>Polygon</h3>
+          <p>Custom angles using clip-path: polygon().</p>
+        </article>
+
+        <article class="card card--circle">
+          <h3>Circle</h3>
+          <p>Perfect round mask using clip-path: circle().</p>
+        </article>
+
+        <article class="card card--ellipse">
+          <h3>Ellipse</h3>
+          <p>Oval mask using clip-path: ellipse().</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Images with clipped masks</h2>
+      <div class="cards">
+        <figure class="image-mask image-mask--hex">
+          <img src="https://picsum.photos/id/1015/600/400" alt="Mountain landscape" />
+          <figcaption>Hexagon image mask</figcaption>
+        </figure>
+
+        <figure class="image-mask image-mask--diagonal">
+          <img src="https://picsum.photos/id/1025/600/400" alt="Golden retriever" />
+          <figcaption>Diagonal slice mask</figcaption>
+        </figure>
+
+        <figure class="image-mask image-mask--ticket">
+          <img src="https://picsum.photos/id/1035/600/400" alt="Forest waterfall" />
+          <figcaption>Ticket notch mask</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Buttons and ribbons</h2>
+      <div class="ribbons">
+        <a class="ribbon ribbon--left" href="#">Get Started</a>
+        <a class="ribbon ribbon--right" href="#">Learn More</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 TuteDude • Clip-Path Demo</p>
+  </footer>
+</body>
+</html>
